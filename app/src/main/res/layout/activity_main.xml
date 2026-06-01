@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center"
+    android:background="#1A1A2E" android:padding="32dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="🎱" android:textSize="64sp" android:layout_marginBottom="12dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Billiard Aim Pro" android:textColor="#00FF88"
+        android:textSize="28sp" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="راهنما:\n\n1️⃣  START → اجازه overlay بده\n2️⃣  چهار گوشه میز رو tap کن\n3️⃣  روی توپ سفید tap کن\n4️⃣  انگشت رو بکش برای aim\n⏸  Pause → ضربه بزن\n▶  Resume → ادامه بده\n📐  Recalib → میز رو دوباره تنظیم کن"
+        android:textColor="#CCCCCC" android:textSize="14sp" android:lineSpacingMultiplier="1.5"
+        android:background="#22FFFFFF" android:padding="16dp" android:layout_marginBottom="32dp"/>
+
+    <Button android:id="@+id/btnStart"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:text="▶  START OVERLAY"
+        android:textColor="#1A1A2E" android:textStyle="bold"
+        android:backgroundTint="#00FF88" android:layout_marginBottom="10dp"/>
+
+    <Button android:id="@+id/btnReset"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:text="📐  RESET TABLE CALIBRATION"
+        android:textColor="#FFFFFF" android:backgroundTint="#FF8800"
+        android:layout_marginBottom="10dp"/>
+
+    <Button android:id="@+id/btnStop"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:text="⏹  STOP OVERLAY"
+        android:textColor="#FFFFFF" android:backgroundTint="#FF4444"/>
+
+</LinearLayout>

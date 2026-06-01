@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="vertical" android:background="@drawable/control_bg"
+    android:padding="8dp">
+
+    <View android:id="@+id/dragHandle"
+        android:layout_width="36dp" android:layout_height="5dp"
+        android:background="#66FFFFFF" android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Pause / Resume -->
+    <ImageButton android:id="@+id/btnPause"
+        android:layout_width="44dp" android:layout_height="44dp"
+        android:src="@android:drawable/ic_media_pause"
+        android:background="@drawable/btn_bg" android:tint="#AAAAAA"
+        android:layout_marginBottom="6dp" android:contentDescription="Pause"/>
+
+    <!-- Clear aim -->
+    <ImageButton android:id="@+id/btnClear"
+        android:layout_width="44dp" android:layout_height="44dp"
+        android:src="@android:drawable/ic_menu_delete"
+        android:background="@drawable/btn_bg" android:tint="#FFDD00"
+        android:layout_marginBottom="6dp" android:contentDescription="Clear"/>
+
+    <!-- Recalibrate table -->
+    <ImageButton android:id="@+id/btnCalib"
+        android:layout_width="44dp" android:layout_height="44dp"
+        android:src="@android:drawable/ic_menu_mapmode"
+        android:background="@drawable/btn_bg" android:tint="#FF8800"
+        android:layout_marginBottom="6dp" android:contentDescription="Calibrate"/>
+
+    <!-- Cycle colour -->
+    <ImageButton android:id="@+id/btnColor"
+        android:layout_width="44dp" android:layout_height="44dp"
+        android:src="@android:drawable/ic_menu_edit"
+        android:background="@drawable/btn_bg" android:tint="#00FF88"
+        android:layout_marginBottom="6dp" android:contentDescription="Color"/>
+
+    <!-- Close -->
+    <ImageButton android:id="@+id/btnClose"
+        android:layout_width="44dp" android:layout_height="44dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:background="@drawable/btn_bg" android:tint="#FF4444"
+        android:contentDescription="Close"/>
+
+</LinearLayout>
